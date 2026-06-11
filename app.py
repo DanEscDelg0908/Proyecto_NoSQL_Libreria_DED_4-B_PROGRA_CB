@@ -159,7 +159,3 @@ with pestanas[4]:
             st.rerun()
     else:
         st.info("No hay registros para eliminar.")
-
-#Ejecutar Servidor Streamlit y app.py
-!nohup streamlit run app.py &
-!npx localtunnel --port 8501 & curl ipv4.icanhazip.com
