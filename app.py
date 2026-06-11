@@ -1,6 +1,3 @@
-!pip install streamlit pymongo dnspython
-
-%%writefile app.py
 import streamlit as st
 from pymongo import MongoClient
 from bson.objectid import ObjectId
